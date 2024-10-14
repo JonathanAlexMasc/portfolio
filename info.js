@@ -1,6 +1,6 @@
 let info = {
-  name: "Hrishikesh Paul",
-  logo_name: "paul",
+  name: "Jonathan Mascarenhas",
+  logo_name: "mascarenhas",
   flat_picture: require("./src/assets/potrait.jpg"),
   config: {
     use_cookies: true,
@@ -9,11 +9,10 @@ let info = {
     }
   },
   description:
-    "A second year Computer Science graduate student at Indiana University Bloomington with an interest in Software Development, UX Design and Artificial Intelligence - and seeking exciting opportunities related to the same.<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I would bring to table a wide range of software skills, ranging from design and development to writing scripts for intelligent agents. I believe that the skills that I have attained from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
+    "A senior year computer science major at the South Dakota School of Mines and Technology, looking for entry level roles in software engineering, quality assurance, project management, or similar.<br><br> I've worked as a Quality Assurance Engineer Intern at Amazon (summer '24), and Software Engineer Intern at Blackboard (summer '23). When I'm not working on homework or projects, you can find me at the soccer field or playing the acoustic guitar!",
   links: {
-    linkedin: "https://www.linkedin.com/in/hrishikeshpaul/",
-    github: "https://github.com/hrishikeshpaul",
-    angellist: "https://angel.co/u/hrishikesh-paul",
+    linkedin: "https://www.linkedin.com/in/jonathanmascarenhas/",
+    github: "https://github.com/JonathanAlexMasc",
     resume:
       "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
   },
