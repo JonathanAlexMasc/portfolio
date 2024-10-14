@@ -18,88 +18,40 @@ let info = {
   },
   education: [
     {
-      name: "Indiana University Bloomington",
-      place: "USA",
-      date: "Aug, 2019 - May, 2021",
-      degree: "Masters in Computer Science",
-      gpa: "3.7/4.0",
+      name: "South Dakota School of Mines and Technology",
+      place: "United States",
+      date: "Aug, 2021 - May, 2025",
+      degree: "B.S. Computer Science",
+      gpa: "3.6/4.0",
       description:
-        "Currently pursuing my Master's in Computer Science, while specializing in the field of Artificial Intelligence and Machine Learning.",
+        "Bachelors of Science degree in Computer Science.",
       skills: [
-        "Artificial Intelligence",
         "Software Engineering",
-        "Algorithms",
-        "Computer Vision",
-        "Music Data Mining",
-        ,
-        "OS"
-      ]
-    },
-    {
-      name: "Manipal Institute of Technology",
-      place: "India",
-      date: "Aug, 2015 - July, 2019",
-      degree: "Bachelors in Computer and Communication",
-      gpa: "8.0/10.0",
-      description:
-        "Graduated from Manipal Institute of Technology, Manipal with a bachelors degree in Computer and Communications Engineering.",
-      skills: [
-        "AI",
-        "Neural Netwroks",
-        "Data Mining",
-        "Computer Vision",
-        "Pattern Recognition",
-        "HCI",
-        "Software Engineering"
+        "Quality Assurance",
+        "Project Management"
       ]
     }
   ],
   experience: [
     {
-      name: "Cyberinfrastructure for Network Science Center",
-      place: "Bloomington, Indiana",
-      date: "Jun, 2020 - Present",
-      position: "Research Assistant; Full Stack Developer",
+      name: "Amazon",
+      place: "Boston, Massachusetts",
+      date: "June 2024 - August 2024",
+      position: "Quality Assurance Engineer Intern",
       description:
-        "Worked as a Software Developer for the Human BioMolecular Atlas Program (funded by the NIH), building innovative visualization tools to envision large biomedical datasets.",
-      skills: ["Angular", "Node.js", "Vega", "Shell", "Typescript"]
+        "Automated manual tests for the Blink-Alexa integration using the Kotest framework. Built a performance report generator using Python and AWS tools for reporting Blink-Alexa load testing results to stakeholders.",
+      skills: ["Kotlin", "Python", "AWS Lambda", "AWS SES (Simple Email Service)", "AWS S3 (Simple Storage Service)"]
     },
     {
-      name: "Skylark Drones",
-      place: "Bangalore, India",
-      date: "Jan, 2019 - Jun, 2021",
-      position: "Full Stack Web Developer",
+      name: "Blackboard Inc.",
+      place: "Remote",
+      date: "June 2023 - August 2023",
+      position: "Software Engineer Intern",
       description:
-        "Worked as a full stack web developer, implementing various features and fixing bugs for Skylark Drones’ central management system called Operations Portal and Data Mining Server.",
-      skills: ["MongoDB", "Flask", "VueJS", "NGINX"]
-    },
-    {
-      name: "Hridayam Soft Solutions",
-      place: "Mumbai, India",
-      date: "May, 2018 - Jun, 2018",
-      position: "Computer Vision Engineer",
-      description:
-        "Scripted an algorithm for extracting information (such as date, invoice number etc.) from scanned images of invoices, built a web interface for using the former mentioned machine.",
-      skills: ["Python", "OpenCV", "PyTesseract", "AngularJS", "NodeJS"]
-    },
-    {
-      name: "Elementail Labs",
-      place: "Mumbai, India",
-      date: "May, 2017 - July, 2017",
-      position: "Full Stack Web Developer",
-      description:
-        "Implemented various contracts and deployed them on the upcoming blockchain technology - Ethereum, while also working as a MEAN stack web developer for Elemential Labs’ website.",
-      skills: ["MongoDB", "AngularJS", "NodeJS", "ExpressJS"]
-    },
-    {
-      name: "Viteos Capital Market Services s",
-      place: "Mumbai, India",
-      date: "May, 2016 - July, 2016",
-      position: "Software Developer",
-      description:
-        "Evaluated technologies, and building proof of concept/prototype solutions for trade processing and mathematical model based evaluations, while working in the software development team.",
-      skills: ["C#", "C++", "Visual Studio"]
+        "Migrated features from Blackboard's legacy angular codebase to their latest Ultra frontend built using React + Redux. Worked on bilding items such as datetime pickers, and fixed a client side bug associated with bulk deleting student data. Performed unit/feature/integration testing using JUnit, UI/UX testing using Selenium, and API testing using TestNG and Postman.",
+      skills: ["React", "Angular", "Redux", "Java", "Docker", "Jenkins", "Kuberenetes"]
     }
+
   ],
   skills: [
     {
@@ -113,55 +65,51 @@ let info = {
         "C++",
         "SQL",
         "NoSQL",
-        "Ruby"
+        "Kotlin"
       ],
       icon: "fa fa-code"
     },
     {
-      title: "data frameworks",
-      info: [
-        "Keras",
-        "Numpy",
-        "Pandas",
-        "OpenCV",
-        "SciPy",
-        "Sklearn",
-        "LibROSA",
-        "Pillow"
-      ],
-      icon: "fa fa-cubes"
-    },
-    {
       title: "web technologies",
-      info: ["Vue", "Angular", "React", "Node", "Flask", "HTML", "CSS"],
+      info: ["Vue", "Angular", "React", "Node", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
     },
     {
       title: "databases",
-      info: ["MongoDB", "MySQL", "OracleSQL", "Neo4j"],
+      info: ["MySQL", "SQLite", "PostgreSQL", "Firebase"],
       icon: "fa fa-database"
     },
     {
-      title: "operating systems & tools",
+      title: "operating systems",
       info: [
         "MacOS",
         "Ubuntu",
         "Windows",
-        "Android",
-        "Agile",
-        "Scrum",
-        "JIRA",
-        "Heroku",
-        "Firebase",
-        "AWS S3"
+        "Android"
       ],
       icon: "fas fa-tools"
     },
     {
-      title: "design",
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
-      icon: "fa fa-pencil-square-o"
-    }
+      title: "cloud tools",
+      info: [
+        "AWS S3",
+        "AWS Lambda",
+        "AWS SES",
+        "Netlify",
+      ],
+      icon: "fas fa-tools"
+    },
+    {
+      title: "project management",
+      info: [
+        "Agile",
+        "Scrum",
+        "JIRA",
+        "Confluence"
+      ],
+      icon: "fas fa-tools"
+    },
+
   ],
   portfolio: [
     {
@@ -332,99 +280,6 @@ let info = {
       visit: "https://angel.co/projects/576300-nutricare",
       description:
         "Nutricare is a basic health website for users(patients) to input nutrient intake data and researchers to analyse the data with the help of graphs and tables. A researcher can conduct studies on N different subjects (patient) for a particular problem statement. Typically, a researcher will enter food item consumed by subjects over a period of time (Ex - 24hrs, or 1 week, or 1 month etc)."
-    }
-  ],
-  portfolio_design: [
-    {
-      name: "Guituna",
-      title: "Guituna - Mockup Design",
-      pictures: [
-        {
-          img: require("./src/assets/designs/coursera1/MoodBoard.png"),
-          title: "MoodBoard"
-        },
-        {
-          img: require("./src/assets/designs/coursera1/Mockups 1.png"),
-          title: "Mockups 1"
-        },
-        {
-          img: require("./src/assets/designs/coursera1/Mockups 2.png"),
-          title: "Mockups 2"
-        },
-        {
-          img: require("./src/assets/designs/coursera1/App Elements.png"),
-          title: "App Elements"
-        }
-      ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
-      github: "",
-      date: "May, 2020 - Jun, 2020",
-      visit: "",
-      description:
-        "Guituna is a simple, lightweight and intuitive guitar tuner, that provides different modes of guitars based on your usage. You can either select a specific string to tune, or free tune your guitar based on the frequency shown on the meter. Guituna also provides a handful of different tunings to help explore various tuning paradigms. There is also an array of settings that can be configured to your liking based on the devices you're using. <br/><br/>The interface aims to highlight the use of a minimal design and providing just enough controls to make for a great tuner, while exposing various possibilities of guitarists to explore."
-    },
-    {
-      name: "Pantree",
-      title: "Pantree - Mockup Design",
-      pictures: [
-        {
-          img: require("./src/assets/designs/pantree/MoodBoard.png"),
-          title: "Moodboard"
-        },
-        {
-          img: require("./src/assets/designs/pantree/1.png"),
-          title: "Mockups 1"
-        },
-        {
-          img: require("./src/assets/designs/pantree/2.png"),
-          title: "Mockups 2"
-        }
-      ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
-      github: "",
-      date: "May, 2020 - July, 2020",
-      visit: "",
-      description:
-        "Pantree is a recipiece finding and recommending application. It is often the case that you have run to your closest grocery store just to pick up one item that is missing in your kitchen. Pantree keeps a track of all your ingredients, and suggests recipes based on your meal preferences and past recipes. <br/><br/> The goal of the interface is to keep it similar to various recipe/food apps to reduce the learning required by the user, but also provide a smooth interface for users to seemlessly browse through recipes and ingredients."
-    },
-    {
-      name: "Bunder",
-      title: "Bunder - MVP Proposal",
-      pictures: [
-        {
-          img: require("./src/assets/designs/bunder/Moodboard.png"),
-          title: "Moodboard"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Mockup 1.png"),
-          title: "Mockup 1"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Mockup 2.png"),
-          title: "Mockup 2"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Mockup 3.png"),
-          title: "Mockup 3"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Market Research 1.png"),
-          title: "Market Research 1"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Market Research 2.png"),
-          title: "Market Research 2"
-        }
-      ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
-      github: "",
-      date: "May, 2020 - July, 2020",
-      visit: "",
-      description:
-        "Bunder is an intuitive web platform for micro-communities to share sensitive data with privacy within the community and allow engagement amongst them. Our aim is two-fold - Co-existing and Collaboration. The former is executed by providing a platform for communities that are geographically positioned in the same proximity (Housing societies, Dorms, Apartment Complexes) to have and share data (exact apartment addresses, phone number, apartment housing rules, individuals tested positive for COVID-19) in an exclusive platform. The latter is to give these people in the community the ability to carry out a task you are physically or remotely unable to do; with dignity and ease."
     }
   ],
   recommendations: [
