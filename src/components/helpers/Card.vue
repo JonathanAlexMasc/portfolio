@@ -45,14 +45,6 @@
           >
             read more
           </button>
-          <button
-            href="#"
-            class="btn-sm btn btn-outline-secondary no-outline ml-4"
-            v-if="portfolio.visit"
-            @click.prevent="open(portfolio.visit)"
-          >
-            visit website
-          </button>
         </div>
       </div>
     </div>

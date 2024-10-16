@@ -113,7 +113,7 @@ let info = {
   ],
   portfolio: [
     {
-      name: "Sheet Recognizer",
+      name: "Amazon - Load Testing Report Generator",
       pictures: [
         {
           img: require("./src/assets/portfolio/msr/one.png")
@@ -128,17 +128,15 @@ let info = {
           img: require("./src/assets/portfolio/msr/four.png")
         }
       ],
-      technologies: ["Computer Vision", "OpenCV", "AI", "Flask", "Sockets"],
-      category: "Algorithm",
-      date: "Jan, 2020 - Mar, 2020",
-      github:
-        "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
+      technologies: ["Load Testing", "Kotest", "Python", "AWS Lambda", "AWS S3", "AWS SES"],
+      category: "Software Testing",
+      date: "July, 2024 - Aug, 2024",
       visit: "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
       description:
         "Music Sheet Recognizer (MSR) highlights basic Image Processing and Recognition. Like Optical Character Recognition, this tool is used to detect music notes and rests. It makes use of basic Computer Vision techniques such as Convolution, Edge Detections, Hough Transforms and Template Matching to detect notes and rests on a music sheet. "
     },
     {
-      name: "NoQ Job Portal",
+      name: "RecruitLab",
       pictures: [
         {
           img: require("./src/assets/portfolio/noq/logo.png")
@@ -165,7 +163,7 @@ let info = {
         "No Q, is a revolutionary tool which allows for both employers and students to skip the hassle seen in modern day career fairs. For the students, there is an intuitive profile builder where you can add things like education, skills, certifications, honors, and experiences. No Q is not only good for students, but employers as well! A common problem at modern career fairs is the number of unqualified candidates who waste their time when they could be chatting with someone else. With No Q, only the students who meet the positions’ criteria will be able to apply, and from there the recruiter can invite them to talk in more detail at the career fair through our intuitive messaging system."
     },
     {
-      name: "POST",
+      name: "DayBud",
       pictures: [
         {
           img: require("./src/assets/portfolio/post/one.png")
