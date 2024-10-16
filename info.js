@@ -14,7 +14,7 @@ let info = {
     linkedin: "https://www.linkedin.com/in/jonathanmascarenhas/",
     github: "https://github.com/JonathanAlexMasc",
     resume:
-      "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
+      "https://github.com/JonathanAlexMasc/portfolio/blob/main/src/assets/pdfs/Resume.pdf"
   },
   education: [
     {
@@ -188,133 +188,16 @@ let info = {
       description:
         "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling."
     },
-    {
-      name: "Suicide Analyzer",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/suicide/suicide-analyzer.png")
-        },
-        {
-          img: require("./src/assets/portfolio/suicide/suicide2-original.png")
-        }
-      ],
-      technologies: ["Node", "Angular", "Express", "Leaflet", "Pandas"],
-      category: "Website",
-      date: "Oct, 2018 - Nov, 2018",
-      github: "https://github.com/hrishikeshpaul/whodata",
-      visit: "https://skylarktiral.herokuapp.com/",
-      description:
-        "This is a web application, uses a map to demonstrate the number suicides committed around the globe, according to a dataset provided by the WHO. The application consists of a Leaflet map that colors every nation, based on the number of suicides that have been committed in that country, for that year. It provides us with the capability to select the data as well as the continent."
-    },
-    {
-      name: "Sentiment Analyzer",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/smit/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/smit/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/smit/three.png")
-        },
-        {
-          img: require("./src/assets/portfolio/smit/four.png")
-        }
-      ],
-      technologies: ["LSTM", "Keras", "Angular", "Tweepy", "Heroku", "Python"],
-      category: "Alogrithm",
-      date: "Feb, 2018 - Apr  , 2018",
-      github: "https://github.com/hrishikeshpaul/sih",
-      visit: "https://angel.co/projects/1009777-sentiment-analysis",
-      description:
-        "Developing this for the final round of Smart India Hackathon 2018, the web application is a platform for showcasing the sentiment of the tweets of the people in the Telangana region in India on policy satisfaction, services and problem definitions. The minimal UI design consists of different bins, that have their respective tweets, all scraped from twitter. There is also a simple graphical representation denoting the sentiment of the tweets."
-    },
-    {
-      name: "Clumpr",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/clumpr/logo.png")
-        },
-        {
-          img: require("./src/assets/portfolio/clumpr/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/clumpr/two.png")
-        }
-      ],
-      technologies: ["Node", "Angular", "Express", "MySQL", "Facebook API"],
-      category: "Web App",
-      github: "https://github.com/hrishikeshpaul/clumpr",
-      date: "Sep, 2017 - Nov, 2017",
-      visit: "https://github.com/hrishikeshpaul/clumpr",
-      description:
-        'Clumpr is an online social event planning assistant that - using information about similar events happening in similar locations around the same time, friends who frequently attend the same events, and mutual friends - helps users to collaborate, combine, and attend events together, effectively "clumping" people and activities in a way that makes intuitive sense.'
-    },
-    {
-      name: "Nutricare",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/nc/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/three.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/four.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/five.png")
-        },
-        {
-          img: require("./src/assets/portfolio/nc/six.png")
-        }
-      ],
-      technologies: ["Node", "Angular", "Express", "MongDB", "Medical"],
-      category: "Website",
-      github: "https://github.com/hrishikeshpaul/clumpr",
-      date: "May, 2017 - Aug, 2017",
-      visit: "https://angel.co/projects/576300-nutricare",
-      description:
-        "Nutricare is a basic health website for users(patients) to input nutrient intake data and researchers to analyse the data with the help of graphs and tables. A researcher can conduct studies on N different subjects (patient) for a particular problem statement. Typically, a researcher will enter food item consumed by subjects over a period of time (Ex - 24hrs, or 1 week, or 1 month etc)."
-    }
   ],
   recommendations: [
     {
       title:
-        "In his internship, Hrishikesh has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
-      author: "Ushanas Shastri",
-      position: "CTO",
-      company: "Viteos Capital Market Services",
-      location: "Mumbai"
+        "I got the opportunity to work with and manage Jonathan during the summer of 2023. during that time he easily proved himself to a bright young man, willing to take on difficult tasks , which ranged from both backend to front fixes. But the real question is do I want him to come back next summer , absolutely !!",
+      author: "Tim Riley",
+      position: "Director of Software Engineering",
+      company: "Anthology Inc.",
+      location: "Remote"
     },
-    {
-      title:
-        "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
-      author: "Anil Dukkipatty",
-      position: "CTO",
-      company: "Elemential Labs",
-      location: "Mumbai"
-    },
-    {
-      title:
-        "He has gained great knowledge and experience of SDE, and has learned ot develop the application keeping in mind the client's perpective and also making it creative.",
-      author: "Chintan Shah",
-      position: "Director",
-      company: "Hridayam Soft Solution",
-      location: "Mumbai"
-    },
-    {
-      title:
-        "During the course of his employment we have found him to be a self-started who was motivated, duty bound and a highly commited team player.",
-      author: "Mrinal Pai",
-      position: "Co-Founder & Director",
-      company: "Skylark Drones",
-      location: "Bangalore"
-    }
   ]
 };
 
