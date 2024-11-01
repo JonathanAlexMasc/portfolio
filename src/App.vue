@@ -32,9 +32,7 @@ export default {
     Home,
     About,
     Skills,
-    Portfolio,
     Recommendation,
-    Contact,
     Footer,
   },
   data() {

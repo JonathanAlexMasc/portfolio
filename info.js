@@ -111,73 +111,73 @@ let info = {
     },
 
   ],
-  portfolio: [
-    {
-      name: "Report Generator",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/zon/one.png")
-        }
-      ],
-      technologies: ["Load Testing", "Kotest", "Python", "AWS Lambda", "AWS S3", "AWS SES"],
-      category: "Software Testing",
-      date: "July, 2024 - Aug, 2024",
-      visit: "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
-      description:
-        "The performance report generator is a python + AWS based tool that I built during my internship at Amazon. The tool extracts results from running load tests on the Blink-Alexa integration test suite. <br><br>For example, after running a live view test a hundred times, the tool would extract information such as pass/fail rates in addition to minimum time, maximum time, and average time required for running the commands. <br><br> This data gets processed using a lambda function with dependencies such as matplotlib to generate two reports - an html report containing a summary of the latest load test and a graph showing the failure rate of each command for the last ten runs. <br><br> The results of the load tests are stored in an S3 container as objects, and I used AWS SES (Simple Email Service) to send an email containing the aforementioned report and graphs."
-    },
-    {
-      name: "RecruitLab",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/rct/logo.png")
-        },
-        {
-          img: require("./src/assets/portfolio/rct/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/rct/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/rct/three.png")
-        },
-        {
-          img: require("./src/assets/portfolio/rct/four.png")
-        }
-      ],
-      technologies: ["Node", "Vue", "Express", "MongoDB", "Heroku"],
-      category: "Website",
-      date: "Sep, 2019 - Dec  , 2019",
-      github: "https://github.com/hrishikeshpaul/noq",
-      visit: "https://noq-client.herokuapp.com/",
-      description:
-        "No Q, is a revolutionary tool which allows for both employers and students to skip the hassle seen in modern day career fairs. For the students, there is an intuitive profile builder where you can add things like education, skills, certifications, honors, and experiences. No Q is not only good for students, but employers as well! A common problem at modern career fairs is the number of unqualified candidates who waste their time when they could be chatting with someone else. With No Q, only the students who meet the positions’ criteria will be able to apply, and from there the recruiter can invite them to talk in more detail at the career fair through our intuitive messaging system."
-    },
-    {
-      name: "Auto Grading Tool",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/agt/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/agt/two.png")
-        }
-      ],
-      technologies: [
-        "React",
-        "Python",
-        "HTML",
-        "TailwindCSS",
-        "JavaScript"
-      ],
-      category: "UI/UX",
-      github: "https://github.com/hrishikeshpaul/pos-tagger",
-      date: "Oct, 2019 - Nov, 2019",
-      visit: "https://post-client.herokuapp.com/",
-      description:
-        "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling."
-    },
-  ],
+  // portfolio: [
+  //   {
+  //     name: "Report Generator",
+  //     pictures: [
+  //       {
+  //         img: require("./src/assets/portfolio/zon/one.png")
+  //       }
+  //     ],
+  //     technologies: ["Load Testing", "Kotest", "Python", "AWS Lambda", "AWS S3", "AWS SES"],
+  //     category: "Software Testing",
+  //     date: "July, 2024 - Aug, 2024",
+  //     visit: "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
+  //     description:
+  //       "The performance report generator is a python + AWS based tool that I built during my internship at Amazon. The tool extracts results from running load tests on the Blink-Alexa integration test suite. <br><br>For example, after running a live view test a hundred times, the tool would extract information such as pass/fail rates in addition to minimum time, maximum time, and average time required for running the commands. <br><br> This data gets processed using a lambda function with dependencies such as matplotlib to generate two reports - an html report containing a summary of the latest load test and a graph showing the failure rate of each command for the last ten runs. <br><br> The results of the load tests are stored in an S3 container as objects, and I used AWS SES (Simple Email Service) to send an email containing the aforementioned report and graphs."
+  //   },
+  //   {
+  //     name: "RecruitLab",
+  //     pictures: [
+  //       {
+  //         img: require("./src/assets/portfolio/rct/logo.png")
+  //       },
+  //       {
+  //         img: require("./src/assets/portfolio/rct/one.png")
+  //       },
+  //       {
+  //         img: require("./src/assets/portfolio/rct/two.png")
+  //       },
+  //       {
+  //         img: require("./src/assets/portfolio/rct/three.png")
+  //       },
+  //       {
+  //         img: require("./src/assets/portfolio/rct/four.png")
+  //       }
+  //     ],
+  //     technologies: ["Node", "Vue", "Express", "MongoDB", "Heroku"],
+  //     category: "Website",
+  //     date: "Sep, 2019 - Dec  , 2019",
+  //     github: "https://github.com/hrishikeshpaul/noq",
+  //     visit: "https://noq-client.herokuapp.com/",
+  //     description:
+  //       "No Q, is a revolutionary tool which allows for both employers and students to skip the hassle seen in modern day career fairs. For the students, there is an intuitive profile builder where you can add things like education, skills, certifications, honors, and experiences. No Q is not only good for students, but employers as well! A common problem at modern career fairs is the number of unqualified candidates who waste their time when they could be chatting with someone else. With No Q, only the students who meet the positions’ criteria will be able to apply, and from there the recruiter can invite them to talk in more detail at the career fair through our intuitive messaging system."
+  //   },
+  //   {
+  //     name: "Auto Grading Tool",
+  //     pictures: [
+  //       {
+  //         img: require("./src/assets/portfolio/agt/one.png")
+  //       },
+  //       {
+  //         img: require("./src/assets/portfolio/agt/two.png")
+  //       }
+  //     ],
+  //     technologies: [
+  //       "React",
+  //       "Python",
+  //       "HTML",
+  //       "TailwindCSS",
+  //       "JavaScript"
+  //     ],
+  //     category: "UI/UX",
+  //     github: "https://github.com/hrishikeshpaul/pos-tagger",
+  //     date: "Oct, 2019 - Nov, 2019",
+  //     visit: "https://post-client.herokuapp.com/",
+  //     description:
+  //       "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling."
+  //   },
+  // ],
   recommendations: [
     {
       title:
